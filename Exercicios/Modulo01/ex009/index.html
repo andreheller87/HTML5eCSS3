@@ -4,32 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Other formatting</title>
+    <title>List</title>
 </head>
 <body>
-    <h1><strong>Other Formatting</strong></h1>
-    <h2>Codigos Fontes e pre-formatado</h2>
-    <p>O comando code é usado para dar espaço iqual entre as letras de uma palavra ou codigo ex <code>document.getElementById('teste')</code></p>
-
-    <pre> <!-- deixa com indentação -->
-        <code>
-            num = int(input('Digite um numero'))
-            if num % 2 ==0:
-                print(f'o numero {num} é par')
-            else:
-                 print(f'o numero {num} é impar') 
-                 print(Fim do programa')  
-
-        </code>
-    </pre>
-    <h2>Citações simples</h2>
-    <p>Como diria o pai de um amigo: <q> O computador é um burro rapido</q></p>
-    <h2>Citações Completas</h2>
-    <p>Segundo Jeff Noble, no seu livro HTML para leigos</p>
-    <blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_and_CSS_For_Dummies/oWkeeH6ik1MC?hl=pt-BR&gbpv=1&dq=Html++Jeff+Noble&printsec=frontcover">
-        A diferença entre elementos inline e um bloco de texto é importante. Os elementos html neste capitulo descreve os blocos de texto
-    </blockquote>
-
-    
+    <h1>Trabalhando com Listas</h1>
+    <h2>listas ordenadas</h2>
+    <ol>
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ligar o laptop</li>
+        <li>Estudar muito</li>
+    </ol>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ligar o laptop</li>
+        <li>Estudar muito</li>
+    </ol>
+    <ol type="1" start="5">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ligar o laptop</li>
+        <li>Estudar muito</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul type="circle">  <!--type = "square" quadrado type= "disc" circulo preto e type= "circle" é um circulo-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Café</li>
+        <li>Arroz</li>
+        <li>Trigo</li>
+        <li>Bolacha</li>
+    </ul>
+    <h1>Juntando listas</h1>
+    <h2>Linguagens favoritas do Guanabara</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="I">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="I">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h1>Meus jogos Favoritos</h1>
+    <ol>
+    <li>NES</li>
+    <ul type="disc">
+    <li>Mario bros</li>
+    <ul type=" square">
+        <li>Mario bros 3</li>
+        <li>Super mario bros</li>
+        <li>Mario: lost levels</li>
+    </ul>
+    <li>Ninja Garden</li>
+   </ul>
+    <li>SNES</li>
+    <ul type="circle">
+        <li>Mario</li>
+        <li>Donkey Kong</li>
+    </ul>
+    <li>PlayStation</li>
+    <ul type="square">
+      <li>God of war</li>
+      <li>Naruto</li>
+      <li>Motal kombat</li>
+    </ul>
+</ol>
+<h1>Lista de Definições</h1>
+<dl>
+    <dt> Html</dt>
+    <dd>Linguagem de marcação para o conteudo de um site</dd>
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação para o design de um site </dd>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação usado para criar interatividade em um site</dd>
+</dl>
 </body>
 </html>
